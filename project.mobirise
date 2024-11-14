@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-11-11_2026",
+    "name": "Bitcoin and Nostr Consultancy Landing",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -9,7 +9,7 @@
         "primaryColor": "#6592e6",
         "secondaryColor": "#ff6666",
         "successColor": "#40b0bf",
-        "infoColor": "#47b5ed",
+        "infoColor": "#6592e6",
         "warningColor": "#FFE161",
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
@@ -23,8 +23,8 @@
         "display7Size": 1.2,
         "display4Font": "Jost",
         "display4Size": 1.1,
-        "isRoundedButtons": false,
-        "isGhostButtonBorder": false,
+        "isRoundedButtons": true,
+        "isGhostButtonBorder": true,
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
@@ -43,9 +43,19 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 2,
+    "uniqCompNum": 5,
     "versionPublish": "5.8.9",
-    "imageResize": true
+    "imageResize": true,
+    "usedWebp": true,
+    "favicon": "@PROJECT_PATH@/assets/images/2235nonono92277nostr-34058d0e-af30-411d-8dfe-87c42dacdcf2222-128x128.png",
+    "mbrsiteDomain": "v9xj1nudpz",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -57,7 +67,7 @@
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/223592277nostr-34058d0e-af30-411d-8dfe-87c42dacdcf2222-2000x1044.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/2235nonono92277nostr-34058d0e-af30-411d-8dfe-87c42dacdcf2222-1562x1560.png"
       },
       "components": [
         {
@@ -106,13 +116,14 @@
           },
           "_name": "form4",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" name=\"bgColor\" title=\"Color\" value=\"#ff9445\" selected>\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row content-wrapper justify-content-center\">\n            <div mbr-form class=\"col-lg-3 offset-lg-1 mbr-form\">\n                <form action=\"consult@obango.org\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"consult@obango.org\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form! HODL Tight!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                            Oops...! some problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <h1 mbr-theme-style=\"display-2\" class=\"mbr-section-title mb-4\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b>Let's Connect!</b></h1>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <p mbr-theme-style=\"display-7\" class=\"mbr-text mbr-fonts-style mb-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n                                Fill this form and we'll get back to you<b> ASAP.</b></p>\n                        </div>\n                        <div class=\"col-lg-12 col-md col-12 form-group mb-3\" data-for=\"name\">\n                            <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"name\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-lg-12 col-md col-12 form-group mb-3\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Phone, Email or Npub\" data-form-field=\"email\" class=\"form-control\" value>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-12 col-md-auto mbr-section-btn\">\n                            <a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-secondary\">Submit</a>\n                        </div>\n                    </div>\n                </form>\n            </div>\n            <div class=\"col-lg-7 offset-lg-1 col-12\">\n                <div class=\"image-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/nostr.build-27672d4113633140e3b8cb3afcda8201e461d568f597f6d550e4dabbfe6cd922-1476x1486.jpg\" alt>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "uu3xZVn4LW",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <input type=\"color\" name=\"bgColor\" title=\"Color\" value=\"#ff9445\" selected>\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row content-wrapper justify-content-center\">\n            <div mbr-form class=\"col-lg-3 offset-lg-1 mbr-form\">\n                <form action=\"consult@obango.org\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"consult@obango.org\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form! HODL Tight!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                            Oops...! some problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <h1 mbr-theme-style=\"display-2\" class=\"mbr-section-title mb-4\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b>Let's Connect!</b></h1>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <p mbr-theme-style=\"display-7\" class=\"mbr-text mbr-fonts-style mb-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n                                Fill this form and we'll get back to you<b> ASAP.</b></p>\n                        </div>\n                        <div class=\"col-lg-12 col-md col-12 form-group mb-3\" data-for=\"name\">\n                            <input type=\"text\" name=\"name\" placeholder=\"Contact & Name\" data-form-field=\"name\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-lg-12 col-md col-12 form-group mb-3\" data-for=\"email\" hidden=\"hidden\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"email\" class=\"form-control\" value hidden=\"hidden\">\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-12 col-md-auto mbr-section-btn\">\n                            <a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-secondary\">Submit</a>\n                        </div>\n                    </div>\n                </form>\n            </div>\n            <div class=\"col-lg-7 offset-lg-1 col-12\">\n                <div class=\"image-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/nostr.build_27672d4113633140e3b8cb3afcda8201e461d568f597f6d550e4dabbfe6cd922-1476x1486.jpg\" alt>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "form4-3",
+          "_isUserblock": true,
+          "_cid": "uu4ZMAs9Jp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "form4-1"
+          "_params": {}
         }
       ]
     }
